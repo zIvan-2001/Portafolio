@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0d1b2a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: #0d1b2a;
+    transition: 0.5s ;
+    box-shadow: 2px 10px 30px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container__logo img {
+    width: 50px;
+    margin-left: 50px;
+}
+
+.container button {
+    background: none;
+    color: #fff;
+    border: none;
+    display: none;
+
+}
+
+.container button i {
+    font-size: 25px;
+}
+
+.container__options {
+    margin-right: 50px;
+}
+
+.container__options ul {
+    display: flex;
+}
+
+.container__options ul li {
+    padding: 20px;
+    list-style: none;  
+}
+
+.container__options ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s; 
+    cursor: pointer;
+}
+
+.container__options ul li a:hover{
+    color: #02c39a;
+}
+
+.red {
+    position: fixed;
+    margin-left: 25px;
+    width: 100px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.red i {
+    color: #e9ecef;
+    font-size: 20px;
+    padding: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.red i:hover{
+    color: #02c39a;
+    transform: scale(1.5);
+}
+
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.main_container__text {
+    margin-left: 20rem;
+    color: #e9ecef;
+    width: 40rem;
+}
+
+.main_container p:first-child {
+    font-size: 1.5rem;
+    color:#02c39a ;
+}
+
+.main_container p:nth-of-type(2) {
+    font-size: 3.5rem;
+}
+
+.main_container p:last-child{
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.main_container__text span {
+    font-size: 20px;
+    color: #02c39a;
+}
+
+.main_container img {
+    width: 25rem;
+    margin-right: 20rem;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
